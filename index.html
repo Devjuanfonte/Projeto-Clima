@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Projeto Clima</title>
+</head>
+<body>
+
+    <header class="header container">
+        <div class="headerContent content">
+            <h1 class="headerTitle">Projeto Clima 🌤️</h1>
+        </div>
+    </header>
+
+    <section class="section container">
+        <div class="sectionContent content">
+            <div class="firstSection">
+                <h2 class="sectionTitle">Qual cidade você quer ver agora?</h2>
+                <input type="text" class="cidade" placeholder="Digite aqui a cidade desejada" required><br>
+                <input class="botao" onclick="catchData()" type="button" value="Buscar">
+            </div>
+
+            <div class="secondSection">
+                <h2 class="sectionTitle actual">Cidade escolhida</h2>
+                <div class="infoBox">
+                    <div class="temp info">Temperatura: ...</div>
+                    <div class="wind info">vento: ...</div>
+                    <div class="sky info">  </div>
+                    <div class="photo"></div>
+                   
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <Footer class="footer">
+        Criado por Juan Fonte. 
+        Projeto para fins de estudo. <br>
+        
+        HTML + CSS + JAVASCRIPT <br>
+        Dados do clima: OpenWeather API<br>
+        Fotos das cidades: UnPlash API
+
+    </Footer>
+
+
+
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
