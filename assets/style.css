@@ -177,6 +177,7 @@
     .headerTitle {
         font-size: 30px;
     }
+    
     /*=================================================*/
 
     .sectionContent {
@@ -223,6 +224,10 @@
         margin-top: 10px;
         
     }
+    .footer {
+        position:relative;
+    }
+    
 }
 
 /*============================================================================*/
@@ -295,4 +300,8 @@
         justify-content: center;
         flex-direction: column;
     }
+    .footer {
+        position:relative;
+    }
+    
 }
