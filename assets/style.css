@@ -156,3 +156,143 @@
     bottom: 0;
     width: 100%;
 }
+
+
+/*Fazendo o site ser responsivo*/
+
+@media (max-width:425px){ 
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .content {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerTitle {
+        font-size: 30px;
+    }
+    /*=================================================*/
+
+    .sectionContent {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .firstSection {
+        height: 200px;
+        margin-bottom: 50px;
+    }   
+   
+    .cidade {
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;      
+        padding-left: 5px;
+        font: 12px;
+    }
+    .sectionTitle {
+        font-size: 15px;
+        margin-bottom: 20px;
+        
+    }
+    .botao {
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 15px;
+       
+    }
+    .botao:hover {
+        font-size: 19px;
+    }
+    .photo {
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px;
+        
+    }
+}
+
+/*============================================================================*/
+@media (min-width: 426px) and ( max-width:768px){ 
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .content{    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerTitle {
+        font-size: 40px;
+    }
+    /*=================================================*/
+
+    .sectionContent {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .firstSection {
+        height: 200px;
+        margin-bottom: 50px;
+    }   
+   
+    .cidade {
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;      
+        padding-left: 10px;
+     
+    }
+    .sectionTitle {
+        font-size: 25px;
+        margin-bottom: 20px;
+        
+    }
+    .botao {
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px;
+       
+    }
+    .botao:hover {
+        font-size: 24px;
+    }
+    .photo {
+        width: 400px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px;
+        
+        
+    }
+    .infoBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
